@@ -1,0 +1,23 @@
+{
+  "name": "foodtruck",
+  "version": "1.0.0",
+  "description": "app to show local food truck information",
+  "main": "FoodTruckFinder.js",
+  "scripts": {
+    "test": "show-open-food-trucks"
+  },
+  "keywords": [
+    "foodtruck",
+    "interview"
+  ],
+  "author": "Rahul Akurati",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "cli-table": "0.3.1",
+    "request":"2.81.0"
+  },
+  "bin": {
+    "foodtruck" : "./FoodTruckFinder.js"
+  }
+}
